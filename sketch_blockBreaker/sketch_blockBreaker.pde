@@ -131,7 +131,7 @@ void draw() {
     }
     
     // game over
-    if(ypos > height+(radius*2)){
+    if(ypos > height+(radius*2) || brickRow == bricks.length){
       play = false;
       setup();
     }
